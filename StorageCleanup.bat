@@ -36,9 +36,9 @@ echo ===============================================
 ping 127.0.0.1 -n 6 > nul
 
 :: Spotify
-:: taskkill /IM Spotify.exe /F
-:: rmdir %localappdata%\Spotify\Data\ /S /Q
-:: mkdir %localappdata%\Spotify\Data\
+taskkill /IM Spotify.exe /F
+rmdir %localappdata%\Spotify\Data\ /S /Q
+mkdir %localappdata%\Spotify\Data\
 
 :: Unity
 taskkill /IM Unity.Licensing.Client.exe /F
